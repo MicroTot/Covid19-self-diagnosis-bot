@@ -1,0 +1,103 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- location
+- throbbingpain
+- nlu_fallback
+- smell
+- cough
+- chest
+- breath
+- listofsymtoms
+- congestion
+- temp
+- negative_headache
+- negative_smell
+- negative_nose
+- negative_cough
+- covid_claim
+responses:
+  utter_greet:
+  - text: Hey there!
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_cov_intro:
+  - text: I will analyze your symptoms and will book an appointment for you at Kenyatta
+      hospital if we suspect you are infected.
+  utter_location_one:
+  - text: Thank you for sharing your location. Now lets analyze the symptoms and see
+      if you are positive
+  utter_question_one:
+  - text: would you describe your headache as a throbbing pain or a constant pressure
+      pain all over your head?
+  utter_response_question_one_no:
+  - text: That might not be Covid19. Its headache can be described as a constant pressure
+      headache that lasts from a few days to months.
+  utter_smell:
+  - text: how is your sense of smell? would you describe it as still present or a
+      diminishing ability?
+  utter_congestion:
+  - text: and is your nose currently congested or open?
+  utter_cough:
+  - text: is your cough a wet or dry continuous cough?
+  utter_common:
+  - text: those are some of the common Covid19 symptoms. Lets look at more of your
+      symptoms for a more accurate analysis.
+  utter_chest:
+  - text: if you have chest pains, how would you describe them?
+  utter_breath:
+  - text: and, what do you experience when you breathe?
+  utter_temp:
+  - text: what is your current body temperature in degree Celsius?
+  utter_last_q:
+  - text: finally, do you have one or more of these symptoms? fatigue, sputum, joint
+      aches or sudden bursts of confusion
+  utter_final_response:
+  - buttons:
+    - payload: a href="http://localhost:8101/newapp" target="_blank">Book appointment</a>
+      title: Book Appointment
+    text: based on your symptom analysis, you might be Covid19 positive. You can book
+      an appointment for a Covid19 diagnosis at Kenyatta Hospital by clicking the
+      "Book Appointment" in the chatbot page or you can click the button below for
+      a link
+  utter_negative_headache_response:
+  - text: I see... typical Covid19 headaches have been described as usually feeling
+      like a throbbing pain. You might not be having Covid19
+  utter_negative_headache_answer:
+  - text: I see... Typical Covid19 headaches have been described as having a throbbing
+      pain. You might not be suffering from Covid19.
+  utter_negative_smell:
+  - text: If you still have your sense of smell, it might not be Covid19. Most sufferers
+      have been observed to loose this ability. It is a common symptom seen in most
+      Covid19 positive people
+  utter_negative_nose:
+  - text: A congested nose is usually a mild Covid19 symptom. Despite this, it is
+      still common among those with Covid19.  It is observed that up to 80% of sufferers
+      will have a stuffy or congested nose.  You might not be suffering from Covid19.
+  utter_negative_cough:
+  - text: Up to 60% of those experience dry coughs. Wet cough may be an indicator
+      of another disease but not Covid19. The virus is known not to produce phlegm
+      resulting to wet coughs. You might be Covid19 negative
+  utter_covid_claim:
+  - text: Go to the appointments page and book an appointment as soon as possible.
+  utter_utter_unknown:
+  - text: Sorry! I do not understand. Please keep your input to Covid19 related information
+actions:
+- utter_negative_headache_response

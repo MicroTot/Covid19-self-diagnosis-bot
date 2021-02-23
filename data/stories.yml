@@ -1,0 +1,94 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 24f8400f38e74244bcb1cd625bed9dfa
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: negative_headache
+  - action: utter_negative_headache_answer
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 8383a9f55df9440ca853554f18593992
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: negative_headache
+  - action: utter_negative_headache_answer
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID ffbe858f70cf4b39b4bd1de6bd0c7ffc
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: throbbingpain
+  - action: utter_smell
+  - intent: smell
+  - action: utter_congestion
+  - intent: negative_nose
+  - action: utter_negative_nose
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID c7f1d3b3b2f241389fa31fce65cce1ce
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: throbbingpain
+  - action: utter_smell
+  - intent: smell
+  - action: utter_congestion
+  - intent: congestion
+  - action: utter_cough
+  - intent: negative_cough
+  - action: utter_negative_cough
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID cfa6f4a600a94de2989a5fb680e8cb11
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: throbbingpain
+  - action: utter_smell
+  - intent: smell
+  - action: utter_congestion
+  - intent: congestion
+  - action: utter_cough
+  - intent: negative_cough
+  - action: utter_negative_cough
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 2adb8526096d444d8f9c12858ef9e9ba
+  steps:
+  - action: utter_cov_intro
+  - intent: greet
+  - intent: throbbingpain
+  - intent: negative_smell
+  - action: utter_negative_smell
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID ce4240e99db446fd837cac3b2e402b95
+  steps:
+  - intent: greet
+  - action: utter_cov_intro
+  - action: utter_question_one
+  - intent: greet
+  - action: utter_smell
+  - intent: smell
+  - action: utter_congestion
+  - intent: congestion
+  - action: utter_cough
+  - intent: cough
+  - action: utter_common
+  - action: utter_chest
+  - intent: chest
+  - action: utter_breath
+  - intent: breath
+  - action: utter_temp
+  - intent: temp
+  - action: utter_last_q
+  - intent: listofsymtoms
+  - action: utter_final_response

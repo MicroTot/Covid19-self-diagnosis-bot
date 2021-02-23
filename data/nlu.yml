@@ -1,0 +1,196 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi
+    - Hey
+    - Hii
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thank you
+    - bye]
+    - I think I have covid
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - okay thanks
+    - okay
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - i am a bot
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: location
+  examples: |
+    - I'm currently in Nairobi
+    - currently in nairobi
+    - nairobi
+- intent: throbbingpain
+  examples: |
+    - throbbing pain
+    - throbbing pain for 2 days
+    - throbbing hpain
+    - i would describe it as throbbing pain
+    - i would describe it as a throbbing pain
+    - throbbing
+    - trhobbing pain
+    - Throbbing pain
+    - Throbbing
+    - throbbing ability
+    - Throbbing headache
+- intent: smell
+  examples: |
+    - diminishing ability
+    - my nose feels a bit congested
+    - diminishing
+    - i would say diminishing
+    - iminishing ability
+    - diminidhing
+    - Diminishing ability
+    - Diminishing
+    - ddiminishing ability
+    - Diminishing a ability
+- intent: congestion
+  examples: |
+    - blocked and congested
+    - congested
+    - Congested
+    - Currently congested
+- intent: cough
+  examples: |
+    - i am having a wet cough
+    - a dry cough
+    - dry cough
+    - dry continuous
+    - Dry continuous
+- intent: negative_cough
+  examples: |
+    - wet
+    - wet cough
+    - Wet
+- intent: chest
+  examples: |
+    - pressure pain like a tight band around me
+    - constant pressure that feels tight
+    - pressure pain around chest
+    - pressure around chest
+    - tight pressure around chest
+    - Tight pressure around chest
+    - pressure headache
+- intent: breath
+  examples: |
+    - shortness of breath
+    - Shortness of breath
+- intent: temp
+  examples: |
+    - 37.8
+    - 38
+    - 38.7
+    - 38.6
+- intent: listofsymtoms
+  examples: |
+    - fatigue and joint aches
+    - fatigue and joint pain
+    - Fatigue and joint aches
+    - fatigue
+    - fatigua and joint aches
+- intent: negative_headache
+  examples: |
+    - pressure head ache
+    - constant head ache
+    - constant pressure pain
+    - Pressure head ache
+- intent: negative_smell
+  examples: |
+    - still present
+    - Still present
+- intent: negative_nose
+  examples: |
+    - open
+    - Open
+- intent: covid_claim
+  examples: |
+    - I have covid19
+    - I have covid
+    - i have covid
+    - i have covid 19
+- intent: nlu_fallback
+  examples: |
+    - hnhjmutkuikiutut76756556tn
+    - ljiojiohilknjniohijop
+    - jbjhyjjg7ig78gh8n
+    - iihiuh78t7gg
+    - +
+    - 77gyyuuy877unkjn
